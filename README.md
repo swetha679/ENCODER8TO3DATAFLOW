@@ -47,17 +47,26 @@ Figure 02  Encoder 8 * 3
 5. For different input combinations generate the timing diagram.
 
 **PROGRAM**
+
 developed by Swetha Nivasini B R
+
 registration number  24900367
 
 
-modmule enc(a,b,c,y0,y1,y2,y3,y4,y5,y6,y7);
+```modmule enc(a,b,c,y0,y1,y2,y3,y4,y5,y6,y7);
+
 input y0,y1,y2,y3,y4,y5,y6,y7;
+
 output a,b,c;
+
 assign a= ( y4 | y5 | y6 | y7);
+
 assign b= ( y2 | y3 | y6 | y7);
+
 assign c= ( y1 | y3 | y5 | y7);
+
 endmodule
+```
 
 
 
@@ -76,7 +85,7 @@ endmodule
 
 
 
-**TIMING DIAGRAMS FOR Encoder 8 To 3 in Dataflow Modelling**
+**TIMING DIAGRAM FOR Encoder 8 To 3 in Dataflow Modelling**
 
 
 
@@ -97,7 +106,7 @@ endmodule
 
 
 
-hence implemented the Encoder 8 To 3 in Dataflow Modelling using Verilog and validated their functionality using their functional tables.
+Hence, Encoder 8 to 3 in Dataflow Modelling was implemented using Verilog, and its functionality was validated using its functional tables.
 
 
 
